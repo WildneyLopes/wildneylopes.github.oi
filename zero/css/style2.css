@@ -1,0 +1,33 @@
+/* fonte */
+@font-face {
+    font-family:'Roboto-Light';
+    src: url('../font/Roboto-Light.ttf');
+}
+
+.base{
+    width: 70%;
+    height: 100vh;
+    background-color: #101d27;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+.cont img:last-child{
+
+ padding: 4em;   
+
+}
+
+ .contt{
+FLEX-BASIS: 60%;
+height: 500px;
+padding: 30px 40px;
+color: rgb(11, 14, 17);
+ }
+ .contt p,.contt h2{
+    margin-bottom: 50px;
+    color: rgb(3, 5, 7);
+ }
